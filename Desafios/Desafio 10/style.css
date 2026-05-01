@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+            font-family: 'idroid';
+            src: url(fontes/idroid.otf) format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }    
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    margin: 0px;
+    text-align: justify;
+}
+header{
+    margin-top: 0px;
+    height: 180px;
+    color: #ffffff;
+    text-align: center;
+    background-image: linear-gradient(180deg, #3CDA83, #195B38);
+}
+header > div{
+    margin: auto;
+    padding: 15px;
+}
+nav :hover{
+    background-color: rgb(0, 54, 0);
+}
+.titulo{
+    font-family: "Bebas Neue", cursive;
+    font-weight: normal;
+    font-size: 2em;
+    margin: 0px;
+    border-radius: 0px;
+}
+div > h2{
+    margin: 30px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    text-align: center;
+}
+nav{
+    background-color: #195B38;
+    text-align: left;
+    height: 20px;
+    padding: 0px;
+    text-align:left;
+    padding-top: 20px;
+    box-shadow: 0px 10px 20px 0px #494949;
+}
+nav > a{
+    display: inline;
+    margin-right: 10px;
+    color: #ffffff;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+main{
+    background-color: #84E1AD;
+    margin-top: 2px;
+    
+}
+section > article{
+    background-color: #ffffff;
+    margin: 0px 25px;
+    padding: 10px;
+    box-shadow: 0px 10px 20px 0px #494949;
+}
+#titulo{
+    font-family: 'idroid', sans-serif;
+    color: #20603D;
+}
+.subtitulo{
+    font-family: 'idroid';
+    color: #20603D;
+    background-image: linear-gradient(to left, #FAFDFC, #C5EBD6);
+}
+picture >img{
+    display: block;
+    margin: auto;
+}
+aside{
+    background-color: #ffffff;
+    margin: 0px 25px;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 10px 20px 0px #494949;
+}
+aside > div > h1{
+    background-color: #2FA866;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    font-weight: bold;
+    padding: 10px;
+}
+aside > div{
+    background-color: #C5EBD6;
+    border-radius: 10px 10px;
+}
+div > p{
+    padding: 5px;
+}
+footer{
+    margin: 10px 0px 0px;
+    padding: 10px;
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+}
+p > a{
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
